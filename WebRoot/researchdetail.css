@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #CCC;
+    padding-top: 15px;
+    background: url(img/beijing.gif);
+	width:100%;
+	margin: 0px auto;
+	min-width: 780px;
+    max-width: 1349px;
+	width:expression(document.body.clientWidth < 782? "780px" : document.body.clientWidth > 1349? "1349px" : "auto");
+
+
+}
+
+#wrap{
+	width: 1000px;
+    background: white;
+    margin: 0px auto;
+	margin-top:-22px;
+}
+
+#head {
+    height: 95px;
+    width: 1000px;
+	background: url(img/header_bg.jpg) no-repeat;
+	
+	
+}
+
+ul#menu {
+  height: 30px;
+  width: 1000px;
+  margin-left:27px;
+  margin-top:5px;
+  padding: 0px 0px 0px 0px;
+  background-image: url(img/navbg.jpg);
+  background-repeat:no-repeat;
+  background-position: left top;
+  
+}
+ul#menu li {
+cursor: pointer;
+color: white;
+list-style-type: none;
+width: 115px;
+float: left;
+line-height: 28px;
+font-weight: bold;
+text-align: center;
+}
+
+.mainTitle {
+clear: both;
+height: 19px;
+display: block;
+background: url(img/dian3.gif) repeat-x left 7px;
+width: 890px;
+margin: 0 auto;
+margin-top: 28px;
+margin-bottom: 7px;
+}
+.divMain {
+clear: both;
+width: 890px;
+margin: 0 auto;
+color: #555;
+height: auto;
+min-height: 300px;
+font-size: 12px;
+font-family: arial,"";
+}
+.sideBar {
+float: left;
+width: 175px;
+height: 24px;
+float: left;
+margin-top: 20px;
+padding-top: 5px;
+}
+.sideBar ul {
+clear: both;
+border-top: 1px #CCC dashed;
+}
+.sideBar ul li {
+display: inline;
+
+float:left;
+
+}
+.sideBar ul li a {
+width: 145px;
+display: block;
+border-bottom: 1px #CCC dashed;
+height: 24px;
+line-height: 24px;
+background: url(img/jiao.gif) no-repeat 12px 10px;
+padding-left: 28px;
+font-weight: bold;
+font-size: 12px;
+color: #666;
+text-decoration: none;
+
+}
+.sideBar ul li a:hover {
+color: #063;
+text-decoration: none;
+}
+.mainRight {
+float: right;
+width: 660px;
+height: auto;
+min-height: 100px;
+
+}
+.mTitle {
+clear: both;
+display: block;
+height: 26px;
+line-height: 25px;
+font-weight: bold;
+color:#063;
+background: url(img/dian5.gif) repeat-x left bottom;
+}
+.mTitle span {
+display: block;
+background: url(img/yuandian.gif) no-repeat 2px 7px;
+padding-left: 17px;
+font-size: 14px;
+}
+.txtimgList {
+clear: both;
+padding-top: 20px;
+}
+div, form, img, ul, ol, li, dl, dt, dd {
+margin: 0;
+padding: 0;
+border: 0;
+}
+.list_titleTop {
+text-align: center;
+border-bottom: 1px #EEE solid;
+padding-bottom: 10px;
+}
+.list_titleTop h1 {
+font-size: 14px;
+color: black;
+line-height: 25px;
+}
+h1, h2, h3, h4, h5, h6 {
+margin: 0;
+padding: 0;
+}
+.txtMain {
+line-height: 22px;
+margin: 0;
+padding: 0;
+overflow: hidden;
+padding-top: 15px;
+color: #666;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 15px;
+}
+.txtMain p {
+margin: 0;
+padding: 0;
+}
+.close {
+clear: both;
+text-align: right;
+line-height: 20px;
+color:#063;
+margin-top:20px;
+}
+.close a:link, .close a:visited {
+color:#063;
+text-decoration: none;
+}
+.close a:hover {
+color: #C00;
+text-decoration: underline;
+}
+.clearDiv{
+	clear: both;
+    font-size: 0px;
+    height:20px;
+}
+#footer {
+    clear: both;
+    margin: 0 auto;
+    width: 1000px;
+    height: 70px;
+    margin-top: 5px;
+    padding-top: 23px;
+    background: url(img/index_90.jpg) repeat-x;
+}
+#footer .footerTxt {
+    clear: both;
+    border-top: 1px #DBDBDB solid;
+    text-align: center;
+    color: #333;
+    font-size: 11px;
+    line-height: 24px;
+    padding-top: 10px;
+}
+#footer .footerTxt span {
+    color: #666;
+}

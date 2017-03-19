@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #CCC;
+    padding-top: 15px;
+    background: url(img/beijing.gif);
+	width:100%;
+	margin: 0px auto;
+	min-width: 780px;
+    max-width: 1349px;
+	width:expression(document.body.clientWidth < 782? "780px" : document.body.clientWidth > 1349? "1349px" : "auto");
+
+
+}
+
+#wrap{
+	width: 1000px;
+    background: white;
+    margin: 0px auto;
+	margin-top:-22px;
+}
+
+#head {
+    height: 95px;
+    width: 1000px;
+	background: url(img/header_bg.jpg) no-repeat;
+	
+	
+}
+
+ul#menu {
+  height: 30px;
+  width: 1000px;
+  margin-left:27px;
+  margin-top:5px;
+  padding: 0px 0px 0px 0px;
+  background-image: url(img/navbg.jpg);
+  background-repeat:no-repeat;
+  background-position: left top;
+  
+}
+ul#menu li {
+cursor: pointer;
+color: white;
+list-style-type: none;
+width: 115px;
+float: left;
+line-height: 28px;
+font-weight: bold;
+text-align: center;
+}
+#main{
+height: auto;
+min-height: 330px;
+}
+.mainTitle {
+clear: both;
+height: 19px;
+display: block;
+background: url(img/dian3.gif) repeat-x left 7px;
+width: 890px;
+margin: 0 auto;
+margin-top: 28px;
+margin-bottom: 7px;
+}
+.divMain {
+clear: both;
+width: 890px;
+margin: 0 auto;
+color: #555;
+height: auto;
+min-height: 300px;
+font-size: 12px;
+font-family: arial,"";
+}
+.sideBar {
+float: left;
+width: 175px;
+height: 24px;
+float: left;
+margin-top: 20px;
+padding-top: 5px;
+}
+.sideBar ul {
+
+clear: both;
+border-top: 1px #CCC dashed;
+}
+.sideBar ul li {
+display: inline;
+
+float:left;
+margin-left:-40px;
+
+}
+.sideBar ul li a {
+width: 145px;
+display: block;
+border-bottom: 1px #CCC dashed;
+height: 24px;
+line-height: 24px;
+background: url(img/jiao.gif) no-repeat 12px 10px;
+padding-left: 28px;
+font-weight: bold;
+font-size: 12px;
+color: #666;
+text-decoration: none;
+
+}
+.sideBar ul li a:hover {
+color: #063;
+text-decoration: none;
+}
+.mainRight {
+float: right;
+width: 660px;
+margin-top:-5px;
+margin-right:20px;
+}
+.mTitle {
+clear: both;
+display: block;
+height: 26px;
+line-height: 20px;
+font-weight: bold;
+color:#063;
+background: url(img/dian5.gif) repeat-x left bottom;
+
+
+}
+.mTitle span {
+display: block;
+background: url(img/yuandian.gif) no-repeat 2px 7px;
+padding-left: 17px;
+font-size: 14px;
+}
+.dlList {
+clear: both;
+height: auto;
+
+}
+.dlList dl {
+height: auto;
+min-height: 165px;
+}
+.dlList dl {
+background: url(img/dian5.gif) repeat-x left bottom;
+
+margin-top: 15px;
+}
+
+.dlList dl dt {
+float: left;
+display: block;
+width: 120px;
+height: 149px;
+background: url(img/dtbeijing.jpg) no-repeat left top;
+overflow: hidden;
+}
+.dlList dl dt img {
+display: block;
+margin: 0 auto;
+margin-top: 9px;
+width: 102px;
+height: 130px;
+}
+.dlList dl dd {
+width: 510px;
+display: block;
+float: right;
+padding-right: 10px;
+margin-top:-150px;
+}
+.dlList dl dd b {
+font-weight: bold;
+font-size: 12px;
+color: #555;
+height: auto;
+line-height: 30px;
+}
+.dlList dl dd.txt {
+line-height: 21px;
+margin-top: 5px;
+margin-bottom: 15px;
+height: auto;
+margin-top:-115px;
+}
+.dlList dl dd.dlLink {
+text-align: right;
+margin-top:-40px;
+}
+.dlList dl dd.dlLink a {
+background: url(img/jiantou.gif) no-repeat left 3px;
+padding-left: 15px;
+color:#063;
+text-decoration: none;
+font-weight: bold;
+}
+.clearDiv{
+	clear: both;
+    font-size: 0px;
+    height:20px;
+}
+.close {
+clear: both;
+text-align: right;
+line-height: 20px;
+color:#063;
+}
+.close a:link, .close a:visited {
+color:#063;
+text-decoration: none;
+}
+.close a:hover {
+color: #C00;
+text-decoration: underline;
+}
+#footer {
+    clear: both;
+    margin: 0 auto;
+    width: 1000px;
+    height: 70px;
+    margin-top: 5px;
+    padding-top: 23px;
+    background: url(img/index_90.jpg) repeat-x;
+}
+#footer .footerTxt {
+    clear: both;
+    border-top: 1px #DBDBDB solid;
+    text-align: center;
+    color: #333;
+    font-size: 11px;
+    line-height: 24px;
+    padding-top: 10px;
+}
+#footer .footerTxt span {
+    color: #666;
+}

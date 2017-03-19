@@ -1,0 +1,122 @@
+
+
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #CCC;
+    padding-top: 15px;
+    background: url(img/beijing.gif);
+	width:100%;
+	margin: 0px auto;
+	min-width: 780px;
+    max-width: 1349px;
+	width:expression(document.body.clientWidth < 782? "780px" : document.body.clientWidth > 1349? "1349px" : "auto");
+
+
+}
+
+#wrap{
+	width: 1000px;
+    background: white;
+    margin: 0px auto;
+	margin-top:-22px;
+	
+}
+
+#head {
+    height: 95px;
+    width: 1000px;
+	background: url(img/header_bg.jpg) no-repeat;
+	
+	
+}
+
+ul#menu {
+  height: 30px;
+  width: 1000px;
+  margin-left:27px;
+  margin-top:5px;
+  padding: 0px 0px 0px 0px;
+  background-image: url(img/navbg.jpg);
+  background-repeat:no-repeat;
+  background-position: left top;
+  
+}
+ul#menu li {
+cursor: pointer;
+color: white;
+list-style-type: none;
+width: 115px;
+float: left;
+line-height: 28px;
+font-weight: bold;
+text-align: center;
+}
+
+.mainTitle {
+clear: both;
+height: 19px;
+display: block;
+background: url(img/dian3.gif) repeat-x left 7px;
+width: 890px;
+margin: 0 auto;
+margin-top: 28px;
+margin-bottom: 7px;
+}
+.divMain {
+clear: both;
+width: 890px;
+margin: 0 auto;
+color: #555;
+height: auto;
+min-height: 300px;
+font-size: 12px;
+font-family: arial,"";
+}
+.leftP {
+padding-top: 20px;
+display: block;
+text-indent: 24px;
+line-height: 19px;
+float: left;
+width: 600px;
+padding-left: 15px;
+margin-bottom: 0px;
+}
+.leftP p {
+line-height: 22px;
+margin-bottom: 20px;
+}
+.aboutFleft {
+display: block;
+float: right;
+margin-top: 35px;
+border: 1px #CCC solid;
+}
+.clearDiv{
+	clear: both;
+    font-size: 0px;
+    height:20px;
+}
+#footer {
+    clear: both;
+    margin: 0 auto;
+    width: 1000px;
+    height: 70px;
+    margin-top: 5px;
+    padding-top: 23px;
+    background: url(img/index_90.jpg) repeat-x;
+}
+#footer .footerTxt {
+    clear: both;
+    border-top: 1px #DBDBDB solid;
+    text-align: center;
+    color: #333;
+    font-size: 11px;
+    line-height: 24px;
+    padding-top: 10px;
+}
+#footer .footerTxt span {
+    color: #666;
+}
+	
