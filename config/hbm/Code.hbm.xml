@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 20/05/2007 02:01:47 by Hibernate Tools 3.2.0.b9 -->
+<hibernate-mapping>
+	<class name="com.gzmh.domain.Code" table="sys_code">
+		<id name="id" type="string">
+			<column name="id" />
+			<generator class="uuid" />
+		</id>
+		<many-to-one name="codeType" column="codeType" lazy="false"></many-to-one>
+		<property name="codeNum" column="codeNum" type="string"></property>
+		<property name="codeName" column="codeName" type="string"></property>
+		<property name="isDel" column="isDel" type="string"></property>
+		<property name="mark" column="mark" type="string"></property>
+		<many-to-one name="shiyanshiInfo" column="shiyanshiId" lazy="false"></many-to-one>
+	</class>
+</hibernate-mapping>

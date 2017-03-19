@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING/DTD BEAN/EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<!-- 配置业务逻辑组件 -->
+	<bean id="wangzhanService"
+		class="com.gzmh.service.impl.WangzhanServiceImpl">
+		<property name="wangzhanDAO" ref="iWangzhanDAO" />
+	</bean>
+	<bean id="shiyanshiInfoService"
+		class="com.gzmh.service.impl.ShiyanshiInfoServiceImpl">
+		<property name="shiyanshiInfoDAO" ref="shiyanshiDAO" />
+	</bean>
+	<bean id="codeService" class="com.gzmh.service.impl.CodeServiceImpl">
+		<property name="codeDao" ref="codeDao" />
+	</bean>
+</beans>
